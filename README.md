@@ -23,7 +23,7 @@ Insert screenshots of your calculator application here, showcasing its UI and fu
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/Dennis-Gega/IOS-Calculator
+    git clone https://github.com/Dennis-Gega/IOS-Calculator.git
     ```
 
 2. Open `index.html` in your web browser.
