@@ -20,15 +20,9 @@ Insert screenshots of your calculator application here, showcasing its UI and fu
 
 ## How to Use
 
-1. Clone the repository:
+1. Visit https://dennis-gega.github.io/IOS-Calculator/
 
-    ```bash
-    git clone https://github.com/Dennis-Gega/IOS-Calculator.git
-    ```
-
-2. Open `index.html` in your web browser.
-
-3. Start using the calculator to perform calculations!
+2. Start using the calculator to perform calculations!
 
 ## Contributing
 
