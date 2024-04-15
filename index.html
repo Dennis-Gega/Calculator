@@ -14,35 +14,35 @@
             </div>
 
             <div class="calculator-row-1">
-                <button class="1" onclick="currentTotal += '1'; displayCalculation();">1</button>
-                <button class="2" onclick="currentTotal += '2'; displayCalculation();" >2</button>
-                <button class="3" onclick="currentTotal += '3'; displayCalculation();">3</button>
-                <button class="calculation-button +" onclick="currentTotal += '+'; displayCalculation();">+</button>
+                <button class="1" onclick="appendToTotal('1')">1</button>
+                <button class="2" onclick="appendToTotal('2')">2</button>
+                <button class="3" onclick="appendToTotal('3')">3</button>
+                <button class="calculation-button +" onclick="appendToTotal('+')">+</button>
             </div>
 
             <div class="calculator-row-2">
-                <button class="4" onclick="currentTotal += '4'; displayCalculation();">4</button>
-                <button class="5" onclick="currentTotal += '5'; displayCalculation();">5</button>
-                <button class="6" onclick="currentTotal += '6'; displayCalculation();">6</button>
-                <button class="calculation-button -" onclick="currentTotal += '-'; displayCalculation();">-</button>
+                <button class="4" onclick="appendToTotal('4')">4</button>
+                <button class="5" onclick="appendToTotal('5')">5</button>
+                <button class="6" onclick="appendToTotal('6')">6</button>
+                <button class="calculation-button -" onclick="appendToTotal('-')">-</button>
             </div>
 
             <div class="calculator-row-3">
-                <button class="7" onclick="currentTotal += '7'; displayCalculation();">7</button>
-                <button class="8" onclick="currentTotal += '8'; displayCalculation();">8</button>
-                <button class="9" onclick="currentTotal += '9'; displayCalculation();">9</button>
-                <button class="calculation-button *" onclick="currentTotal += '*'; displayCalculation();">*</button>
+                <button class="7" onclick="appendToTotal('7')">7</button>
+                <button class="8" onclick="appendToTotal('8')">8</button>
+                <button class="9" onclick="appendToTotal('9')">9</button>
+                <button class="calculation-button *" onclick="appendToTotal('*')">*</button>
             </div>
 
             <div class="calculator-row-4">
-                <button class="0" onclick="currentTotal += '0'; displayCalculation();">0</button>
-                <button class="." onclick="currentTotal += '.'; displayCalculation();">.</button>
-                <button class="=" onclick="calculateResult(); calculateResult();">=</button>
-                <button class="calculation-button /" onclick="currentTotal += '/'; displayCalculation();">/</button>
+                <button class="0" onclick="appendToTotal('0')">0</button>
+                <button class="." onclick="appendToTotal('.')">.</button>
+                <button class="=" onclick="calculateResult()">=</button>
+                <button class="calculation-button /" onclick="appendToTotal('/')">/</button>
             </div>
 
             <div class="calculator-row-5">
-                <button class="clear-button"onclick="currentTotal = ''; displayCalculation()">Clear</button>
+                <button class="clear-button" onclick="clearTotal()">Clear</button>
             </div>
 
         </div>
